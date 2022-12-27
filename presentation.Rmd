@@ -28,6 +28,7 @@ mono_light(
 )
 ```
 
+
 class: center, middle
 
 # Welcome
@@ -110,6 +111,10 @@ Text on the first panel
 Text on the second panel
 ]
 ]
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("editable", "panelset"))
+```
 
 ---
 # xaringanExtra: Nice citation
